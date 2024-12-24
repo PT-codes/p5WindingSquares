@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 5;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+select {
+    border-width: 1px;
+    border-color: rgb(181, 180, 180);
+    color: grey;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+input[type="number"] {
+    width: 43px;
+    height: 16px;
+    background-color: #f0f0f0;
+    border-width: 1px;
+    border-color: rgb(181, 180, 180);
+    padding: 2px;
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type="text"] {
+    font-size: 11px;
+    resize: none;
+}
+
+.wn {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border: 2px 1px 1px 1px;
+    border-color: #c0c0c0;
+    -webkit-box-shadow: 3px 4px 3px 0px #000000;
+    box-shadow: 3px 4px 3px 0px #000000;
+}
+.label {
+    font-size: 16px;
+    color: "#505050";
+    padding: 0px;
+    margin: 0px;
+}
+
+/* *-------- --------------------------------------*/
+/* *--------                 BUTTONS             --*/
+/* *-------- --------------------------------------*/
+.stdbutton {
+    background-color: #10101000;
+    color: #808080;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #808080;
+    border-radius: 4px;
+    padding: 1px;
+    width: 120px;
+    height: 28px;
+}
+.stdbutton:hover {
+    color: #1faa92;
+}
+.stdbutton:active {
+    transform: translateX(2px);
+}
+
+/* NAV COLORS
+const NLIGHTBLUE = "#00a6dc"
+const NLIGHTBLUE2 = "#64c3e8"
+const NLIGHTBLUE3 = "#b1ddf2"
+const NMEDIUMBLUE = "#006eb0"
+const NMEDIUMBLUE2 = "#6798ca"
+const NMEDIUMBLUE3 = "#abc2e1"
+const NDARKBLUE = "#00529c"
+const NDARKBLUE2 = "#6781ba"
+const NDARKBLUE3 = "#a8b4d8"
+const NLIGHTGREY = "#999fa8"
+const NLIGHTGREY2 = "#bdc1c9"
+const NLIGHTGREY3 = "#dadce1"
+const NDARKGREY = "#474d56"
+const NDARKGREY2 = "#888d97"
+const NDARKGREY3 = "#bdc1c9"
+const NTEAL = "#1faa92"
+const NTEAL2 = "#86c6b7"
+const NTEAL3 = "#bfdfd7"
+const NGREEN = "#7bc466"
+const NGREEN2 = "#b0d89f"
+const NGREEN3 = "#d5eacc"
+const NYELLOW = "#fcb334"
+const NYELLOW2 = "#ffd086"
+const NYELLOW3 = "#ffe5be"
+const NORANGE = "#f4793b"
+const NORANGE2 = "#f9ab7f"
+const NORANGE3 = "#fdd2b8"
+const NRED = "#ed1c24"
+const NRED2 = "#f58466"
+const NRED3 = "#fbbea7"
+const NPINK = "#d6186e"
+const NPINK2 = "#e382a7"
+const NPINK3 = "#eebcc8"
+const NPURPLE = "#715da3"
+const NPURPLE2 = "#9e8fc0"
+const NPURPLE3 = "#c7bfdc"
+*/
